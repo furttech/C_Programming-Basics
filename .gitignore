@@ -3,3 +3,6 @@
 
 #ignore swap files
 *.swp
+
+#ignore vscode files
+*/.vscode
