@@ -2,4 +2,4 @@
 **/*.o
 
 #ignore swap files
-**/*.swp
+*.swp
