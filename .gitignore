@@ -1,2 +1,5 @@
 # ignore output files
 **/*.o
+
+#ignore swap files
+**/*.swp
