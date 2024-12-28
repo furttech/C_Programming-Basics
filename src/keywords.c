@@ -27,7 +27,7 @@ void main(void){
     double d_eq_2 = ((1+2)/(5*(16-7)));
 
     // If we print these values then you should notice somthing is differnt?
-    printf("%d\n%d\n",equation,eq_2);
+    printf("%f\n%f\n",d_eq_1,d_eq_2);
 
     /*
         C language has thirty two accepted keywords which represent the key
@@ -111,10 +111,10 @@ void main(void){
         [Lesson Adv: intro_to_memory.c / allocate_ur_fate.c /
             pointers_suck.c / pointers_really_suck.c ]
     */
-    int val_int = 42.4;
+    val_int = 42.4;
     double val_double = 42.4;    
     printf("integer: %d \n",val_int);
-    printf("double: %d \n",val_double);
+    printf("double: %f \n",val_double);
 
     /*
     
