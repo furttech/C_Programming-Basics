@@ -9,6 +9,8 @@
  
 */
 
+#include <stdio.h>
+
 void main(void){
 
     // From hello world to debug hell printf is gonna be your best friend

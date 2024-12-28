@@ -18,9 +18,9 @@
 */
 
 #include <stdio.h>
+#include <math.h>
 
-
-int main(){
+int main(void){
 
     /*
     
@@ -41,15 +41,20 @@ int main(){
         [Lesson Adv: Keywords.c - Explore the depths of keywords]
     */
 
-    int equation = 1+2/5*6-7;
+    int sum = 4 + 2; // sum becomes 6
 
+	int diff = 4 - 2; // diff becomes 2
+
+	int product = 4 * 2; // product becomes 8
+
+	float quotient = 20.8 / 4.2; // quotient becomes 4 
     /* 
         printf is built in function call unlike keywords like "int" or "char"
         This will allow us to output the above value to our terminal for viewing
 
         [Lesson Adv: fun_with_functions.c - learn ins and outs of a function]
     */
-    printf("%d\n",equation);
+    printf("sum : %d \ndiff : %d \nproduct : %d \nquotient : %.2f",sum,diff,product,quotient);
 
     /*
         notice the C language uses a number of spacific characters, brackets and 
@@ -68,6 +73,9 @@ int main(){
     // Output is now different due to bracing structure
     printf("%d\n",eq_2);
 
+	// Integer array declaration of size 42 
+	int numbers[42];
+
     /*
     
         Notice the main body of this code is also controled using '{' '}' 
@@ -85,4 +93,26 @@ int main(){
 
     */
 
+	double radius = 5.0;
+	double area = M_PI * (radius * radius); // Circle Formula :)
+	printf("Circle of Radius %.2f will have Area %.2f \n",radius,area);
+
+
+	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
